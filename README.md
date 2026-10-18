@@ -1,6 +1,3 @@
-# Math-Game-CPP
-A console-based Math Game built using C++
-
 # 🧮 Advanced Math Game (C++)
 
 A comprehensive, console-based Math Game built using **C++** as part of advanced programming practice and modular software design. The project features dynamic difficulty scaling, multiple arithmetic operations, interactive console coloring, and a **custom utility header library (`MyLib.h`)** for reusable helper functions.
