@@ -10,20 +10,29 @@ A comprehensive, console-based Math Game built using **C++** as part of advanced
 ## 🚀 Key Features
 
 * **Customizable Round Length:** Choose how many questions to solve per session (1 to 20 questions).
-* **Multiple Difficulty Levels:** Easy, Medium, Hard, and Mix.
-* **Diverse Arithmetic Operations:** Addition, Subtraction, Multiplication, Division, or Mix.
-* **Modular Architecture:** Utilizes a custom-built header library (`MyLib.h`).
+* **Multiple Difficulty Levels:**
+  * **Easy:** Range from 1 to 10
+  * **Medium:** Range from 25 to 45
+  * **Hard:** Range from 50 to 89
+  * **Mix:** Dynamically randomized difficulty levels per question
+* **Diverse Arithmetic Operations:** Addition (`+`), Subtraction (`-`), Multiplication (`*`), Division (`/`), or a complete **Mix** of operations.
+* **Modular Architecture:** Utilizes a custom-built header library (`MyLib.h`) containing reusable functions for input validation, random number generation, and UI formatting.
+* **Dynamic Interactive UI:** Real-time console color changes reflecting correct answers and overall pass/fail status, alongside custom headers and spacing.
+* **Replayability:** Fully integrated game-loop allowing players to restart multiple rounds without restarting the application.
 
 ---
 
 ## 📁 Project Structure
 
+The project is structured cleanly following modular programming principles:
+
 ```text
 Math-Game-CPP/
 │
-├── main.cpp         # Core game logic and execution loop
-├── MyLib.h          # Custom utility library 
+├── main.cpp         # Core game logic, state management, and execution loop
+├── MyLib.h          # Custom utility library (Input handling, Random ranges, UI formatting)
 └── README.md        # Comprehensive project documentation
+
 🛠️ Concepts & Technologies Applied
 Language: C++
 
